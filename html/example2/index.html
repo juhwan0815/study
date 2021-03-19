@@ -8,10 +8,14 @@
 </head>
 
 <body>
-    안녕하세요!
-    <noscript>
-        자바스크립트를 지원하지 않는 환경입니다~
-    </noscript>
+    <progress value="0" value="100"></progress>
+    <script>
+        const progress = document.querySelector('progress');
+        const interval = setInterval(function(){
+            progress.value += 10;
+            if(progress.value >= 100) clearInterval(interval);
+        },1000) // 1초에 한번씩 프로그래스 바 +10
+    </script>
 </body>
 
 </html>
