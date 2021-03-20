@@ -8,14 +8,11 @@
 </head>
 
 <body>
-    <progress value="0" value="100"></progress>
-    <script>
-        const progress = document.querySelector('progress');
-        const interval = setInterval(function(){
-            progress.value += 10;
-            if(progress.value >= 100) clearInterval(interval);
-        },1000) // 1초에 한번씩 프로그래스 바 +10
-    </script>
+    <input type="text" value="1" tabindex="2"> 
+    <input type="text" value="2">
+    <input type="text" value="3" tabindex="1">
+    <input type="text" value="4">
+    <input type="text" value="5" tabindex="3">
 </body>
 
 </html>
