@@ -3,8 +3,20 @@ server:
 
 logging:
   level:
-    org.springframework: DEBUG
+    org.springframework: INFO
 
 spring:
   messages:
     basename: messages
+
+  security:
+    user:
+      name: username
+      password: password
+
+# Actuator 더 많은 정보
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
