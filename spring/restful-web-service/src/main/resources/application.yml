@@ -9,10 +9,27 @@ spring:
   messages:
     basename: messages
 
-  security:
-    user:
-      name: username
-      password: password
+#  security:
+#    user:
+#      name: username
+#      password: password
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+  h2:
+    console:
+      enabled: true
 
 # Actuator 더 많은 정보
 management:

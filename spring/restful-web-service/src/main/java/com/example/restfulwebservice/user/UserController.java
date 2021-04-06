@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.reactive.WebFluxLinkBuilder.methodOn;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 
 @RestController
@@ -63,5 +63,6 @@ public class UserController {
             throw new UserNotFoundException(String.format("ID[%s] not found",id));
         }
     }
+
 
 }
