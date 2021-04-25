@@ -1,0 +1,33 @@
+server:
+  port: 0 # 랜덤포트를 사용한다는 의미
+
+spring:
+  application:
+    name: order-service
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password:
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    register-with-eureka: true # 유레카에 등록
+    fetch-registry: true # 외부에서 검색 가능
+    service-url: # 유레카 서버의 위치
+      defaultZone: http://127.0.0.1:8761/eureka
+
+logging:
+  level:
+    com.example.orderservice: DEBUG
