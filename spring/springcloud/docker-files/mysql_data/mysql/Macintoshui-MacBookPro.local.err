@@ -1,0 +1,766 @@
+2020-12-18T05:07:48.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-18T05:07:48.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-18T05:07:49.028977Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 9360
+2020-12-18T05:07:49.032359Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-18T05:07:49.042259Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-18T05:07:49.155276Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-18T05:07:49.266240Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-18T05:07:49.387379Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-18T05:07:49.387917Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-18T05:07:49.411161Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-18T05:51:37.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-18T05:51:37.6NZ mysqld_safe A mysqld process already exists
+2020-12-18T06:01:35.558147Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-18T06:01:36.243329Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-18T06:01:36.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2020-12-18T16:06:36.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-18T16:06:36.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-18T16:06:36.550904Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 76299
+2020-12-18T16:06:36.561996Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-18T16:06:36.589620Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-18T16:06:36.800993Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-18T16:06:36.959968Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-18T16:06:37.058828Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-18T16:06:37.059386Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-18T16:06:37.105134Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-18T16:06:39.503420Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-18T16:06:39.986343Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-18T16:06:40.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2020-12-22T09:24:02.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-22T09:24:03.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-22T09:24:03.462919Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 16351
+2020-12-22T09:24:03.479619Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-22T09:24:03.509494Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-22T09:24:03.756144Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-22T09:24:03.960029Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-22T09:24:04.034047Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-22T09:24:04.034448Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-22T09:24:04.061680Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-25T11:06:23.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-25T11:06:23.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-25T11:06:23.882491Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 10363
+2020-12-25T11:06:23.893457Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-25T11:06:23.914848Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-25T11:06:24.316188Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-25T11:06:24.471211Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-25T11:06:24.490429Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2020-12-25T11:06:24.501847Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2020-12-25T11:06:24.581819Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-25T11:06:24.582424Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-25T11:06:24.627897Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-25T12:23:27.558713Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-25T12:23:29.567483Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 32  user: 'root'.
+2020-12-25T12:23:29.567714Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 33  user: 'root'.
+2020-12-25T12:23:29.567814Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 34  user: 'root'.
+2020-12-25T12:23:29.567906Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 26  user: 'root'.
+2020-12-25T12:23:29.568127Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 35  user: 'root'.
+2020-12-25T12:23:29.568277Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 27  user: 'root'.
+2020-12-25T12:23:29.568409Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 28  user: 'root'.
+2020-12-25T12:23:29.568530Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 29  user: 'root'.
+2020-12-25T12:23:29.568615Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 30  user: 'root'.
+2020-12-25T12:23:29.568739Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 31  user: 'root'.
+2020-12-25T12:23:29.793592Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-25T12:23:29.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2020-12-27T06:27:32.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-27T06:27:32.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-27T06:27:33.379995Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 79714
+2020-12-27T06:27:33.394729Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-27T06:27:33.430957Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-27T06:27:33.699884Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-27T06:27:33.862893Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-27T06:27:33.972008Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-27T06:27:33.972475Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-27T06:27:34.003513Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-27T07:48:13.280668Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-27T07:48:15.294202Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 168  user: 'root'.
+2020-12-27T07:48:15.294815Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 169  user: 'root'.
+2020-12-27T07:48:15.295396Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 162  user: 'root'.
+2020-12-27T07:48:15.295671Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 170  user: 'root'.
+2020-12-27T07:48:15.295938Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 171  user: 'root'.
+2020-12-27T07:48:15.296484Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 163  user: 'root'.
+2020-12-27T07:48:15.296682Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 164  user: 'root'.
+2020-12-27T07:48:15.296901Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 20  user: 'root'.
+2020-12-27T07:48:15.297038Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 21  user: 'root'.
+2020-12-27T07:48:15.297202Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 165  user: 'root'.
+2020-12-27T07:48:15.298013Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 166  user: 'root'.
+2020-12-27T07:48:15.298608Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 167  user: 'root'.
+2020-12-27T07:48:16.250583Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-27T07:48:16.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2020-12-27T08:08:26.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-27T08:08:27.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-27T08:08:27.308192Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2362
+2020-12-27T08:08:27.320738Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-27T08:08:27.346205Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-27T08:08:27.570498Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-27T08:08:27.760566Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-27T08:08:27.869386Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-27T08:08:27.869762Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-27T08:08:27.904046Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-27T08:09:19.993959Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-27T08:09:20.944793Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-27T08:09:20.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2020-12-27T08:09:23.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-27T08:09:23.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-27T08:09:23.559646Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 3088
+2020-12-27T08:09:23.565598Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-27T08:09:23.579600Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-27T08:09:23.821097Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-27T08:09:23.975767Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-27T08:09:24.089926Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-27T08:09:24.090506Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-27T08:09:24.143485Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-27T08:32:32.003192Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-27T08:32:34.005304Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 48  user: 'root'.
+2020-12-27T08:32:34.005595Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 49  user: 'root'.
+2020-12-27T08:32:34.005760Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 50  user: 'root'.
+2020-12-27T08:32:34.005944Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 51  user: 'root'.
+2020-12-27T08:32:34.006165Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 52  user: 'root'.
+2020-12-27T08:32:34.006460Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 53  user: 'root'.
+2020-12-27T08:32:34.006646Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 54  user: 'root'.
+2020-12-27T08:32:34.006828Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 46  user: 'root'.
+2020-12-27T08:32:34.006985Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 55  user: 'root'.
+2020-12-27T08:32:34.007119Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 47  user: 'root'.
+2020-12-27T08:32:34.569969Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-27T08:32:34.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2020-12-27T08:32:56.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-27T08:32:56.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-27T08:32:56.797091Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 10651
+2020-12-27T08:32:56.802596Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-27T08:32:56.815792Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-27T08:32:57.028333Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-27T08:32:57.172035Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-27T08:32:57.272513Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-27T08:32:57.272765Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-27T08:32:57.299370Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-28T11:42:32.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2020-12-28T11:42:32.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2020-12-28T11:42:32.842713Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 45175
+2020-12-28T11:42:32.858639Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2020-12-28T11:42:32.883271Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-12-28T11:42:33.294819Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-12-28T11:42:33.474889Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2020-12-28T11:42:33.496707Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2020-12-28T11:42:33.508952Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2020-12-28T11:42:33.531598Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-12-28T11:42:33.531919Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-12-28T11:42:33.559847Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2020-12-28T12:02:04.504161Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2020-12-28T12:02:06.514463Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 8  user: 'root'.
+2020-12-28T12:02:06.514824Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 9  user: 'root'.
+2020-12-28T12:02:06.931768Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2020-12-28T12:02:06.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2021-01-05T11:52:48.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-05T11:52:48.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-05T11:52:49.036685Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2072
+2021-01-05T11:52:49.049992Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-05T11:52:49.077404Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-05T11:52:49.339882Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-05T11:52:49.518091Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-05T11:52:49.629874Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-05T11:52:49.630458Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-05T11:52:49.681447Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-05T13:06:12.222597Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2021-01-05T13:06:14.236119Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 8  user: 'root'.
+2021-01-05T13:06:14.236424Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 9  user: 'root'.
+2021-01-05T13:06:14.750107Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2021-01-05T13:06:14.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2021-01-07T06:42:11.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-07T06:42:11.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-07T06:42:12.295705Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 15855
+2021-01-07T06:42:12.307786Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-07T06:42:12.332892Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-07T06:42:12.609736Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-07T06:42:12.811353Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-07T06:42:12.918919Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-07T06:42:12.919506Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-07T06:42:12.958030Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-07T12:00:51.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-07T12:00:51.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-07T12:00:51.936213Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1102
+2021-01-07T12:00:51.948220Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-07T12:00:51.982151Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-07T12:00:52.468914Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-07T12:00:52.677854Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-07T12:00:52.699654Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-07T12:00:52.711160Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-07T12:00:52.789834Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-07T12:00:52.790936Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-07T12:00:52.846364Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-08T06:48:41.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-08T06:48:41.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-08T06:48:41.892746Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1012
+2021-01-08T06:48:41.922560Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-08T06:48:41.961523Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-08T06:48:42.361558Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-08T06:48:42.541932Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-08T06:48:42.572573Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-08T06:48:42.582692Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-08T06:48:42.664422Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-08T06:48:42.665192Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-08T06:48:42.702644Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-09T03:48:06.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-09T03:48:06.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-09T03:48:07.191837Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1271
+2021-01-09T03:48:07.202792Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-09T03:48:07.225780Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-09T03:48:07.711674Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-09T03:48:07.961196Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-09T03:48:08.002943Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-09T03:48:08.015120Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-09T03:48:08.097954Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-09T03:48:08.098643Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-09T03:48:08.150046Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-10T06:39:14.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-10T06:39:14.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-10T06:39:14.877788Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1159
+2021-01-10T06:39:14.889241Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-10T06:39:14.909021Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-10T06:39:15.409521Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-10T06:39:15.593852Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-10T06:39:15.611744Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-10T06:39:15.622125Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-10T06:39:15.703421Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-10T06:39:15.704216Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-10T06:39:15.737977Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-17T07:19:12.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-17T07:19:12.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-17T07:19:12.788367Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 18501
+2021-01-17T07:19:12.802697Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-17T07:19:12.832871Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-17T07:19:13.282816Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-17T07:19:13.450976Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-17T07:19:13.472774Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-17T07:19:13.484863Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-17T07:19:13.566829Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-17T07:19:13.567298Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-17T07:19:13.620335Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-27T16:01:41.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-27T16:01:41.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-27T16:01:42.302715Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 11210
+2021-01-27T16:01:42.311036Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-27T16:01:42.328690Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-27T16:01:42.829023Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-27T16:01:43.015530Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-27T16:01:43.040099Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-27T16:01:43.060561Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-27T16:01:43.162787Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-27T16:01:43.163130Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-27T16:01:43.193016Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-28T10:39:43.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-28T10:39:43.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-28T10:39:44.017738Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1360
+2021-01-28T10:39:44.030737Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-28T10:39:44.050582Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-28T10:39:44.461885Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-28T10:39:44.636938Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-28T10:39:44.657917Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-28T10:39:44.669847Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-28T10:39:44.749688Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-28T10:39:44.750191Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-28T10:39:44.788923Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-29T10:25:47.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-29T10:25:48.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-29T10:25:48.334072Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1918
+2021-01-29T10:25:48.348001Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-29T10:25:48.374259Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-29T10:25:48.882878Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-29T10:25:49.088613Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-29T10:25:49.112649Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-29T10:25:49.136887Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-29T10:25:49.218649Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-29T10:25:49.219414Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-29T10:25:49.274783Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-30T04:43:02.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-30T04:43:02.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-30T04:43:03.352588Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 18105
+2021-01-30T04:43:03.366863Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-30T04:43:03.389329Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-30T04:43:03.880436Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-30T04:43:04.093374Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-30T04:43:04.127887Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-30T04:43:04.142903Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-30T04:43:04.226709Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-30T04:43:04.227331Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-30T04:43:04.273887Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-30T12:05:59.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-30T12:05:59.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-01-30T12:05:59.925758Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2328
+2021-01-30T12:05:59.937251Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-01-30T12:05:59.979241Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-01-30T12:06:00.453004Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-01-30T12:06:00.642528Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-01-30T12:06:00.662351Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-01-30T12:06:00.676787Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-01-30T12:06:00.758778Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-01-30T12:06:00.759322Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-01-30T12:06:00.792479Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-01-31T11:06:14.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-01-31T11:06:14.6NZ mysqld_safe A mysqld process already exists
+2021-02-01T01:29:21.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-01T01:29:21.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-01T01:29:22.028994Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2342
+2021-02-01T01:29:22.042274Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-01T01:29:22.067039Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-01T01:29:22.469077Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-01T01:29:22.692470Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-01T01:29:22.725997Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-01T01:29:22.741515Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-01T01:29:22.818335Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-01T01:29:22.818700Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-01T01:29:22.854181Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-02T12:13:07.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-02T12:13:07.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-02T12:13:08.132443Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 91237
+2021-02-02T12:13:08.144843Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-02T12:13:08.168356Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-02T12:13:08.651069Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-02T12:13:08.839949Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-02T12:13:08.869351Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-02T12:13:08.880228Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-02T12:13:08.969505Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-02T12:13:08.970103Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-02T12:13:09.010315Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-04T12:54:37.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-04T12:54:37.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-04T12:54:37.719402Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1150
+2021-02-04T12:54:37.730553Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-04T12:54:37.756373Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-04T12:54:38.162119Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-04T12:54:38.364851Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-04T12:54:38.385258Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-04T12:54:38.401242Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-04T12:54:38.479049Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-04T12:54:38.479668Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-04T12:54:38.534165Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-05T05:36:51.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-05T05:36:51.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-05T05:36:52.904864Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1150
+2021-02-05T05:36:52.911830Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-05T05:36:52.925200Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-05T05:36:53.416562Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-05T05:36:53.618153Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-05T05:36:53.661369Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-05T05:36:53.675003Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-05T05:36:53.768096Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-05T05:36:53.768747Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-05T05:36:53.819113Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-06T07:26:23.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-06T07:26:24.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-06T07:26:24.415823Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2019
+2021-02-06T07:26:24.428628Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-06T07:26:24.466030Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-06T07:26:24.994857Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-06T07:26:25.209539Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-06T07:26:25.230761Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-06T07:26:25.243867Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-06T07:26:25.323936Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-06T07:26:25.324663Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-06T07:26:25.369422Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-07T08:14:15.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-07T08:14:15.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-07T08:14:15.532822Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1839
+2021-02-07T08:14:15.545943Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-07T08:14:15.568247Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-07T08:14:16.061416Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-07T08:14:16.246115Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-07T08:14:16.270603Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-07T08:14:16.283294Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-07T08:14:16.375116Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-07T08:14:16.375797Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-07T08:14:16.420507Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-07T22:34:50.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-07T22:34:50.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-07T22:34:50.436884Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1129
+2021-02-07T22:34:50.449826Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-07T22:34:50.473652Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-07T22:34:50.927307Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-07T22:34:51.183361Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-07T22:34:51.213542Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-07T22:34:51.230227Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-07T22:34:51.311110Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-07T22:34:51.311678Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-07T22:34:51.349213Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-12T12:41:50.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-12T12:41:50.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-12T12:41:51.189174Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2116
+2021-02-12T12:41:51.201808Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-12T12:41:51.225853Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-12T12:41:51.616730Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-12T12:41:51.855854Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-12T12:41:51.888897Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-12T12:41:51.906844Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-12T12:41:52.008530Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-12T12:41:52.009113Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-12T12:41:52.059472Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-13T05:57:03.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-13T05:57:03.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-13T05:57:04.203764Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1417
+2021-02-13T05:57:04.215611Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-13T05:57:04.238001Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-13T05:57:04.724136Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-13T05:57:04.974138Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-13T05:57:05.011478Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-13T05:57:05.024131Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-13T05:57:05.101129Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-13T05:57:05.101811Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-13T05:57:05.156242Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-14T02:55:19.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-14T02:55:19.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-14T02:55:19.554351Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1012
+2021-02-14T02:55:19.565868Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-14T02:55:19.597327Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-14T02:55:20.021882Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-14T02:55:20.302803Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-14T02:55:20.341987Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-14T02:55:20.353720Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-14T02:55:20.441457Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-14T02:55:20.442055Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-14T02:55:20.491539Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-15T11:42:14.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-15T11:42:14.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-15T11:42:14.674469Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1551
+2021-02-15T11:42:14.689034Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-15T11:42:14.716697Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-15T11:42:15.215258Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-15T11:42:15.464286Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-15T11:42:15.498532Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-15T11:42:15.511500Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-15T11:42:15.592642Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-15T11:42:15.593276Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-15T11:42:15.643158Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-17T07:38:06.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-17T07:38:06.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-17T07:38:06.802089Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 836
+2021-02-17T07:38:06.813873Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-17T07:38:06.838324Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-17T07:38:07.294455Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-17T07:38:07.494065Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-17T07:38:07.519257Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-17T07:38:07.530747Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-17T07:38:07.615763Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-17T07:38:07.616359Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-17T07:38:07.655165Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-18T06:09:21.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-18T06:09:21.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-18T06:09:22.447724Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 838
+2021-02-18T06:09:22.540726Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-18T06:09:22.587314Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-18T06:09:23.048552Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-18T06:09:23.540089Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-18T06:09:23.571197Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-18T06:09:23.587115Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-18T06:09:23.662864Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-18T06:09:23.663386Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-18T06:09:23.708409Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-19T06:47:26.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-19T06:47:26.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-19T06:47:27.256663Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 842
+2021-02-19T06:47:27.269720Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-19T06:47:27.299124Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-19T06:47:27.681274Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-19T06:47:27.881623Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-19T06:47:27.899205Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-19T06:47:27.908654Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-19T06:47:27.982170Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-19T06:47:27.982551Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-19T06:47:28.014838Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-20T04:38:15.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-20T04:38:15.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-20T04:38:16.225682Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1258
+2021-02-20T04:38:16.238377Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-20T04:38:16.266275Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-20T04:38:16.732788Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-20T04:38:16.941965Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-20T04:38:16.970890Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-20T04:38:16.984535Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-20T04:38:17.067935Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-20T04:38:17.068713Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-20T04:38:17.117640Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-21T04:25:03.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-21T04:25:04.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-21T04:25:04.345192Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1185
+2021-02-21T04:25:04.358638Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-21T04:25:04.381691Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-21T04:25:04.829098Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-21T04:25:05.037644Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-21T04:25:05.062674Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-21T04:25:05.079061Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-21T04:25:05.164043Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-21T04:25:05.164673Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-21T04:25:05.206677Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-22T01:49:16.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-22T01:49:16.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-22T01:49:16.490113Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 778
+2021-02-22T01:49:16.501911Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-22T01:49:16.522076Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-22T01:49:17.002638Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-22T01:49:17.191131Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-22T01:49:17.220100Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-22T01:49:17.230787Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-22T01:49:17.308423Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-22T01:49:17.309167Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-22T01:49:17.362259Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-23T01:29:15.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-23T01:29:15.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-23T01:29:16.806285Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 986
+2021-02-23T01:29:16.813170Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-23T01:29:16.827468Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-23T01:29:17.230015Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-23T01:29:17.394233Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-23T01:29:17.419502Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-23T01:29:17.432112Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-23T01:29:17.507126Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-23T01:29:17.507547Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-23T01:29:17.536306Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-23T11:58:52.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-23T11:58:52.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-23T11:58:52.721348Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1192
+2021-02-23T11:58:52.737597Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-23T11:58:52.765263Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-23T11:58:53.207451Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-23T11:58:53.397200Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-23T11:58:53.421574Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-23T11:58:53.434159Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-23T11:58:53.517329Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-23T11:58:53.517877Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-23T11:58:53.573608Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-24T08:30:55.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-24T08:30:55.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-24T08:30:55.455308Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1406
+2021-02-24T08:30:55.469178Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-24T08:30:55.498452Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-24T08:30:55.903468Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-24T08:30:56.092232Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-24T08:30:56.118015Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-24T08:30:56.128844Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-24T08:30:56.202675Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-24T08:30:56.203003Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-24T08:30:56.234429Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-02-25T08:28:28.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-02-25T08:28:28.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-02-25T08:28:28.696383Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 965
+2021-02-25T08:28:28.707949Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-02-25T08:28:28.726133Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-02-25T08:28:29.174029Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-02-25T08:28:29.379101Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-02-25T08:28:29.404838Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-02-25T08:28:29.422747Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-02-25T08:28:29.506741Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-02-25T08:28:29.507361Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-02-25T08:28:29.557730Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-01T02:24:46.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-01T02:24:46.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-01T02:24:46.651183Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 39083
+2021-03-01T02:24:46.663176Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-01T02:24:46.695494Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-01T02:24:47.151670Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-01T02:24:47.365449Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-01T02:24:47.392208Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-01T02:24:47.406018Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-01T02:24:47.499706Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-01T02:24:47.500148Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-01T02:24:47.535913Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-01T07:47:08.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-01T07:47:08.6NZ mysqld_safe A mysqld process already exists
+2021-03-02T08:45:39.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-02T08:45:39.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-02T08:45:39.632853Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1787
+2021-03-02T08:45:39.666095Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-02T08:45:39.734286Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-02T08:45:40.346442Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-02T08:45:40.709040Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-02T08:45:40.741732Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-02T08:45:40.755945Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-02T08:45:40.841060Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-02T08:45:40.842198Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-02T08:45:40.886894Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-03T09:48:48.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-03T09:48:48.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-03T09:48:48.690631Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1665
+2021-03-03T09:48:48.715922Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-03T09:48:48.751190Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-03T09:48:49.266574Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-03T09:48:49.469308Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-03T09:48:49.493750Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-03T09:48:49.509883Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-03T09:48:49.598887Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-03T09:48:49.599429Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-03T09:48:49.645546Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-04T14:00:03.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-04T14:00:03.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-04T14:00:04.165499Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 836
+2021-03-04T14:00:04.179504Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-04T14:00:04.202204Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-04T14:00:04.619023Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-04T14:00:04.825942Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-04T14:00:04.852524Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-04T14:00:04.863210Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-04T14:00:04.956895Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-04T14:00:04.957540Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-04T14:00:04.993883Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-05T02:14:29.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-05T02:14:29.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-05T02:14:30.689034Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1546
+2021-03-05T02:14:30.698871Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-05T02:14:30.719413Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-05T02:14:31.185803Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-05T02:14:31.367367Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-05T02:14:31.394085Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-05T02:14:31.407942Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-05T02:14:31.485991Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-05T02:14:31.487221Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-05T02:14:31.533826Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-06T13:35:24.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-06T13:35:25.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-06T13:35:25.403536Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2718
+2021-03-06T13:35:25.416973Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-06T13:35:25.448485Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-06T13:35:25.964228Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-06T13:35:26.200685Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-06T13:35:26.231649Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-06T13:35:26.248824Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-06T13:35:26.341396Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-06T13:35:26.342030Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-06T13:35:26.400258Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-07T05:35:17.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-07T05:35:17.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-07T05:35:18.037328Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1024
+2021-03-07T05:35:18.051651Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-07T05:35:18.081335Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-07T05:35:18.558173Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-07T05:35:18.773120Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-07T05:35:18.803710Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-07T05:35:18.817700Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-07T05:35:18.847932Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-07T05:35:18.848363Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-07T05:35:18.895353Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-08T04:37:13.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-08T04:37:13.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-08T04:37:14.300990Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 1794
+2021-03-08T04:37:14.312523Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-08T04:37:14.340182Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-08T04:37:14.793740Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-08T04:37:14.994129Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-08T04:37:15.014310Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-08T04:37:15.027542Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-08T04:37:15.117369Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-08T04:37:15.117933Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-08T04:37:15.163277Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-17T08:53:35.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-17T08:53:35.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-17T08:53:36.296889Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 4369
+2021-03-17T08:53:36.309611Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-17T08:53:36.335598Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-17T08:53:36.798156Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-17T08:53:37.037728Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-17T08:53:37.061462Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-17T08:53:37.074281Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-17T08:53:37.176216Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-17T08:53:37.177088Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-17T08:53:37.213949Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-03-21T11:24:36.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-03-21T11:24:36.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-03-21T11:24:38.019764Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 5037
+2021-03-21T11:24:38.037309Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-03-21T11:24:38.069222Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-21T11:24:38.600038Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-21T11:24:38.811814Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-03-21T11:24:38.836398Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-03-21T11:24:38.851106Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-03-21T11:24:38.888277Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-21T11:24:38.888639Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-21T11:24:38.922946Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-04-04T11:31:45.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-04T11:31:45.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-04-04T11:31:47.085736Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld (mysqld 8.0.22) starting as process 2077
+2021-04-04T11:31:47.103071Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-04-04T11:31:47.134585Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-04-04T11:31:47.603529Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-04-04T11:31:47.765490Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-04-04T11:31:47.785680Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-04-04T11:31:47.799708Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-04-04T11:31:47.897326Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-04-04T11:31:47.897645Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-04-04T11:31:47.924404Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: ready for connections. Version: '8.0.22'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-04-12T06:57:32.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-12T06:57:32.6NZ mysqld_safe A mysqld process already exists
+2021-04-13T10:36:04.209619Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+2021-04-13T10:36:06.265101Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 89  user: 'root'.
+2021-04-13T10:36:06.266109Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 34  user: 'root'.
+2021-04-13T10:36:06.267155Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 66  user: 'root'.
+2021-04-13T10:36:06.267242Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 20  user: 'root'.
+2021-04-13T10:36:06.268243Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Forcing close of thread 21  user: 'root'.
+2021-04-13T10:36:08.167988Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.22_1/bin/mysqld: Shutdown complete (mysqld 8.0.22)  Homebrew.
+2021-04-13T10:36:08.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2021-04-13T16:49:25.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-13T16:49:25.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-04-13T16:49:27.312473Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld (mysqld 8.0.23) starting as process 66535
+2021-04-13T16:49:27.320663Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-04-13T16:49:27.621608Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-04-13T16:49:27.929040Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-04-13T16:49:27.938330Z 1 [System] [MY-011090] [Server] Data dictionary upgrading from version '80022' to '80023'.
+2021-04-13T16:49:28.410230Z 1 [System] [MY-013413] [Server] Data dictionary upgrade from version '80022' to '80023' completed.
+2021-04-13T16:49:28.540501Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-04-13T16:49:29.425925Z 4 [System] [MY-013381] [Server] Server upgrade from '80022' to '80023' started.
+2021-04-13T16:49:31.442164Z 4 [System] [MY-013381] [Server] Server upgrade from '80022' to '80023' completed.
+2021-04-13T16:49:31.568596Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-04-13T16:49:31.569350Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-04-13T16:49:31.596628Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: ready for connections. Version: '8.0.23'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-04-13T16:49:54.910709Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-04-13T16:49:55.186497Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Shutdown complete (mysqld 8.0.23)  Homebrew.
+2021-04-13T16:49:55.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2021-04-13T17:25:02.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-13T17:25:02.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-04-13T17:25:02.597346Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld (mysqld 8.0.23) starting as process 88969
+2021-04-13T17:25:02.608385Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-04-13T17:25:02.637044Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-04-13T17:25:02.948337Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-04-13T17:25:03.114499Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-04-13T17:25:03.226571Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-04-13T17:25:03.226887Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-04-13T17:25:03.259091Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: ready for connections. Version: '8.0.23'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-04-13T17:25:32.150253Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-04-13T17:25:34.156363Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Forcing close of thread 8  user: 'root'.
+2021-04-13T17:25:34.156788Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Forcing close of thread 9  user: 'root'.
+2021-04-13T17:25:35.260235Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Shutdown complete (mysqld 8.0.23)  Homebrew.
+2021-04-13T17:25:35.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2021-04-13T17:59:53.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-13T17:59:53.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-04-13T17:59:54.175700Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld (mysqld 8.0.23) starting as process 13168
+2021-04-13T17:59:54.187596Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-04-13T17:59:54.232395Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-04-13T17:59:54.512383Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-04-13T17:59:54.702196Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-04-13T17:59:54.811712Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-04-13T17:59:54.812109Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-04-13T17:59:54.844297Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: ready for connections. Version: '8.0.23'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-04-13T18:22:38.868384Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-04-13T18:22:40.901036Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Forcing close of thread 12  user: 'root'.
+2021-04-13T18:22:40.901352Z 0 [Warning] [MY-010909] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Forcing close of thread 13  user: 'root'.
+2021-04-13T18:22:42.056192Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Shutdown complete (mysqld 8.0.23)  Homebrew.
+2021-04-13T18:22:42.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
+2021-04-27T10:32:18.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-27T10:32:18.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-04-27T10:32:19.450572Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld (mysqld 8.0.23) starting as process 13351
+2021-04-27T10:32:19.459756Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-04-27T10:32:19.491279Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-04-27T10:32:19.814890Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-04-27T10:32:19.968296Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-04-27T10:32:20.074446Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-04-27T10:32:20.074787Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-04-27T10:32:20.105475Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: ready for connections. Version: '8.0.23'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-04-29T12:17:20.6NZ mysqld_safe Logging to '/usr/local/var/mysql/Macintoshui-MacBookPro.local.err'.
+2021-04-29T12:17:20.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/var/mysql
+2021-04-29T12:17:20.785011Z 0 [System] [MY-010116] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld (mysqld 8.0.23) starting as process 14640
+2021-04-29T12:17:20.798633Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-04-29T12:17:20.830008Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-04-29T12:17:21.334453Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-04-29T12:17:21.554604Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '127.0.0.1' port: 33060, socket: /tmp/mysqlx.sock
+2021-04-29T12:17:21.590128Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2021-04-29T12:17:21.604483Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2021-04-29T12:17:21.687870Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-04-29T12:17:21.688822Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-04-29T12:17:21.753254Z 0 [System] [MY-010931] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: ready for connections. Version: '8.0.23'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew.
+2021-05-01T05:04:02.686574Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-05-01T05:04:04.058467Z 0 [System] [MY-010910] [Server] /usr/local/Cellar/mysql/8.0.23_1/bin/mysqld: Shutdown complete (mysqld 8.0.23)  Homebrew.
+2021-05-01T05:04:04.6NZ mysqld_safe mysqld from pid file /usr/local/var/mysql/Macintoshui-MacBookPro.local.pid ended
