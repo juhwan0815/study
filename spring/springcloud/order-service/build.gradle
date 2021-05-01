@@ -23,6 +23,10 @@ ext {
 }
 
 dependencies {
+    implementation 'io.micrometer:micrometer-registry-prometheus'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+    implementation 'org.springframework.cloud:spring-cloud-starter-zipkin:2.2.3.RELEASE'
     implementation 'org.springframework.kafka:spring-kafka'
     implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.2'
     implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.4.1'
