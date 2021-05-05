@@ -15,3 +15,13 @@ spring:
 
   thymeleaf:
     cache: false
+
+  servlet:
+    multipart:
+      enabled: true
+      location: /Users/juhwan/temp/
+      max-request-size: 30MB
+      max-file-size: 10MB
+
+upload:
+  path: /Users/juhwan/temp/

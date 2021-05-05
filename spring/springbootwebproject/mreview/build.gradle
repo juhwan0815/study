@@ -24,10 +24,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+    compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-java8time'
+    compile group: 'net.coobird', name: 'thumbnailator',version: '0.4.12'
 }
 
 test {
