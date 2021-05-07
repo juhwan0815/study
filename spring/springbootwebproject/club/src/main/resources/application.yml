@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    include: oauth
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/bootex
+    username: root
+    password: root
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google.client-id: 783616076536-gu8f2j31jib51hp1rrcj6q29h5dhpqec.apps.googleusercontent.com
+          google.client-secret: GH0eK1xdQboFZS9cArbJkqk7
+          google.scope: email
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+  thymeleaf:
+    cache: false
+
+  servlet:
+    multipart:
+      enabled: true
+      location: /Users/juhwan/temp/
+      max-request-size: 30MB
+      max-file-size: 10MB
+
+logging:
+  level:
+    org.springframework.security.web: debug
+    com.example.security: debug
