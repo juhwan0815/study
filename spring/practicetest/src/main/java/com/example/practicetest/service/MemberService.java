@@ -6,7 +6,6 @@ import com.example.practicetest.model.member.MemberSaveRequest;
 import com.example.practicetest.model.member.MemberUpdateRequest;
 import com.example.practicetest.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,0 +1,63 @@
+openapi: 3.0.1
+info:
+  title: My API
+  description: My API description
+  version: 0.1.0
+servers:
+- url: http://localhost:8080
+tags: []
+paths:
+  /api/users/{id}:
+    get:
+      tags:
+      - api
+      summary: 사용자 정보
+      description: 사용자의 정보를 생성/조회/수정/삭제합니다.
+      operationId: user
+      parameters:
+      - name: id
+        in: path
+        description: 사용자 id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: "200"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api-users-id-1002634928'
+              examples:
+                user:
+                  value: "{\n  \"resultCode\" : \"OK\",\n  \"data\" : {\n    \"id\"\
+                    \ : 1,\n    \"account\" : \"juhwan0815\",\n    \"email\" : \"\
+                    juwom0831@naver.com\",\n    \"phoneNumber\" : \"010-2058-4669\"\
+                    ,\n    \"createdAt\" : \"2021-05-29T17:48:40.659845\",\n    \"\
+                    updatedAt\" : null\n  }\n}"
+components:
+  schemas:
+    api-users-id-1002634928:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            createdAt:
+              type: string
+              description: 생성시간
+            phoneNumber:
+              type: string
+              description: 전화번호
+            id:
+              type: number
+              description: id
+            email:
+              type: string
+              description: 이메일
+            account:
+              type: string
+              description: 계정
+        resultCode:
+          type: string
+          description: 응답코드

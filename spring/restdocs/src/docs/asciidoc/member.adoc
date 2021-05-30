@@ -1,0 +1,51 @@
+:basedir: {docdir}/../../../
+:snippets: {basedir}/build/generated-snippets
+
+= RESTFUL Notes API Guide
+:doctype: member
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:sectanchors:
+
+[[api]]
+==== Member 경로 조회 API
+====== 요청
+include::{snippets}/member/readPath/http-request.adoc[]
+include::{snippets}/member/readPath/path-parameters.adoc[]
+
+===== 응답
+include::{snippets}/member/readPath/http-response.adoc[]
+include::{snippets}/member/readPath/response-fields.adoc[]
+
+== Member 파라미터 조회 API
+===== 요청
+include::{snippets}/member/readParam/http-request.adoc[]
+include::{snippets}/member/readParam/request-parameters.adoc[]
+===== 응답
+include::{snippets}/member/readParam/http-response.adoc[]
+include::{snippets}/member/readParam/response-fields.adoc[]
+
+== Member 헤더 조회 API
+===== 요청
+include::{snippets}/member/header/http-request.adoc[]
+include::{snippets}/member/header/request-headers.adoc[]
+===== 응답
+include::{snippets}/member/header/http-response.adoc[]
+include::{snippets}/member/header/response-headers.adoc[]
+
+== Member 생성 API
+===== 요청
+include::{snippets}/member/create/http-request.adoc[]
+include::{snippets}/member/create/request-fields.adoc[]
+===== 응답
+include::{snippets}/member/create/http-response.adoc[]
+include::{snippets}/member/create/response-fields.adoc[]
+
+
+
+
+

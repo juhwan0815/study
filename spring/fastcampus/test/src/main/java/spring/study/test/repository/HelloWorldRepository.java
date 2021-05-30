@@ -1,2 +1,4 @@
-package spring.study.test.repository;public interface HelloWorldRepository {
+package spring.study.test.repository;
+
+public interface HelloWorldRepository {
 }

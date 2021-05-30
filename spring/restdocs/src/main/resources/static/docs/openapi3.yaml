@@ -1,0 +1,111 @@
+openapi: 3.0.1
+info:
+  title: My API
+  description: My API description
+  version: 0.1.0
+servers:
+- url: http://localhost:8080
+tags: []
+paths:
+  /api/members:
+    get:
+      tags:
+      - api
+      operationId: member/readParam
+      parameters:
+      - name: memberId
+        in: query
+        description: 회원Id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: "200"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api-members2147426256'
+              examples:
+                member/readParam:
+                  value: "{\n  \"id\" : 1,\n  \"name\" : \"황주환\"\n}"
+    post:
+      tags:
+      - api
+      operationId: member/create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/api-members2147426256'
+            examples:
+              member/create:
+                value: "{\n  \"id\" : 100,\n  \"name\" : \"황주환\"\n}"
+      responses:
+        "200":
+          description: "200"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api-members2147426256'
+              examples:
+                member/create:
+                  value: "{\n  \"id\" : 100,\n  \"name\" : \"황주환\"\n}"
+  /api/members/header:
+    get:
+      tags:
+      - api
+      operationId: member/header
+      parameters:
+      - name: memberId
+        in: header
+        description: 회원 Id
+        required: true
+        schema:
+          type: string
+        example: "1"
+      responses:
+        "200":
+          description: "200"
+          headers:
+            memberId:
+              description: 회원 Id
+              schema:
+                type: string
+  /api/members/{memberId}:
+    get:
+      tags:
+      - api
+      summary: 사용자 정보
+      description: 사용자의 정보를 생성/조회/수정/삭제합니다.
+      operationId: member
+      parameters:
+      - name: memberId
+        in: path
+        description: 회원 Id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: "200"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api-members2147426256'
+              examples:
+                member/readPath:
+                  value: "{\n  \"id\" : 1,\n  \"name\" : \"황주환\"\n}"
+                member:
+                  value: "{\n  \"id\" : 1,\n  \"name\" : \"황주환\"\n}"
+components:
+  schemas:
+    api-members2147426256:
+      type: object
+      properties:
+        name:
+          type: string
+          description: 회원 이름
+        id:
+          type: number
+          description: 회원 Id

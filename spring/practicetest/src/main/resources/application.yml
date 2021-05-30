@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: chaos-monkey
   datasource:
     url: jdbc:h2:tcp://localhost/~/appcenterstudy
     username: sa
@@ -7,7 +9,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         #        show_sql: true
@@ -16,3 +18,25 @@ spring:
 logging.level:
   org.hibernate.SQL: debug
 #  org.hibernate.type: trace
+management:
+  endpoint:
+    chaosmonkey:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health, info, chaosmonkey
+chaos:
+  monkey:
+    enabled: true
+    watcher:
+      repository: true
+      service: true
+    assaults:
+      exception:
+        type: java.lang.RuntimeException
+      exceptions-active: true
+      level: 3
+      latency-active: false
+
+
