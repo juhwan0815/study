@@ -1,0 +1,47 @@
+
+spring:
+  h2:
+    console:
+      settings:
+        web-allow-others: true
+      enabled: true
+      path: /h2-console
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        #        show_sql: true
+        format_sql: true
+
+
+logging.level:
+  org.hibernate.SQL: debug
+#  org.hibernate.type: trace
+
+
+kafka:
+  server: 127.0.0.1:9092
+  topic:
+    create:
+      name: order-create-topic
+      result:
+        name: order-create-result-topic
+    cancel:
+      name: order-cancel-topic
+  consumer:
+    create:
+      groupName: order-create-consumer-group
+    cancel:
+      groupName: order-cancel-consumer-group
+
+server:
+  port: 8081
