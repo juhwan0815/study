@@ -32,6 +32,4 @@ public class KafkaConfig {
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, jsonDeserializer);
         return properties;
     }
-
-
 }

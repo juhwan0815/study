@@ -44,4 +44,4 @@ kafka:
       groupName: order-cancel-consumer-group
 
 server:
-  port: 8081
+  port: 8082
