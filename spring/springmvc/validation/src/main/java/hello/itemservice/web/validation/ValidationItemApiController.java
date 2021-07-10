@@ -27,6 +27,4 @@ public class ValidationItemApiController {
         return form;
     }
 
-
-
 }
