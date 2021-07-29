@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <p v-bind:id="uuid" v-bind:class="name">{{ num }}</p>
+        <!-- <p id="abc1234" class="text-blue">{{ num }}</p> -->
+        <p>{{ doubleNum }}</p>
+        <div v-if="loading">
+            Loading...
+        </div>
+        <div v-else>
+            test user has benn logged in
+        </div>
+        <div v-show="loading">
+            Loading...
+        </div>
+        <input type="text" v-model="message">
+        <p> {{ message }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                num: 10,
+                uuid: 'abc1234',
+                name: 'text-blue',
+                loading: true,
+                message: ''
+            },
+            computed: {
+                doubleNum: function () {
+                    return this.num * 2;
+                }
+            }
+
+        })
+    </script>
+</body>
+
+</html>
