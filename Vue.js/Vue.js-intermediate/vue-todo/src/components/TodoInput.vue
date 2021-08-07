@@ -29,14 +29,14 @@ export default {
   },
   methods: {
     addTodo() {
-      if(this. newTodoItem !== ''){
-        this.$emit('addTodoItem',this.newTodoItem)
+      if (this.newTodoItem !== '') {
+        this.$store.commit('addOneItem', this.newTodoItem);
         this.clearInput();
       } else {
         this.showModal = !this.showModal;
       }
     },
-    clearInput(){
+    clearInput() {
       this.newTodoItem = '';
     }
   },
@@ -47,30 +47,35 @@ export default {
 </script>
 
 <style scoped>
-input:focus{
+input:focus {
   outline: none;
 }
+
 .inputBox {
   background: white;
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
 }
+
 .inputBox input {
   border-style: none;
   font-size: 0.9rem;
 }
-.addContainer{
+
+.addContainer {
   float: right;
-  background: linear-gradient(to right,#6478FB, #8763FB);
+  background: linear-gradient(to right, #6478FB, #8763FB);
   display: block;
   width: 3rem;
   border-radius: 0 5px 5px 0;
 }
-.addBtn{
+
+.addBtn {
   color: white;
   vertical-align: middle;
 }
+
 .closeModalBtn {
   color: #42b983;
 }

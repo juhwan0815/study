@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition-group name="list" tag="ul">
-      <li v-for="(todoItem, index) in propsdata" v-bind:key="todoItem.item" class="shadow">
+      <li v-for="(todoItem, index) in this.$store.state.todoItems" v-bind:key="todoItem.item" class="shadow">
         <i class="checkBtn fas fa-check"
            v-bind:class="{checkBtnCompleted : todoItem.completed}"
            v-on:click="toggleComplete(todoItem,index)"></i>
@@ -16,13 +16,12 @@
 
 <script>
 export default {
-  props: ['propsdata'],
   methods: {
     removeTodo(todoItem, index) {
-      this.$emit('removeItem',todoItem,index);
+      this.$store.commit('removeOneItem', {todoItem, index});
     },
-    toggleComplete(todoItem,index) {
-      this.$emit('toggleItem',todoItem,index);
+    toggleComplete(todoItem, index) {
+      this.$store.commit('toggleOneItem', {todoItem, index});
     }
   }
 }
@@ -68,10 +67,11 @@ li {
 }
 
 /* 리스트 아이템 트랜지션 효과 */
-.list-enter-active, .list-leave-active{
+.list-enter-active, .list-leave-active {
   transition: all 1s;
 }
-.list-enter, .list-leave-to{
+
+.list-enter, .list-leave-to {
   opacity: 0;
   transform: translateY(30px);
 }
