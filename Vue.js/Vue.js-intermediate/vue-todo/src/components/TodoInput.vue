@@ -18,8 +18,6 @@
 
 <script>
 import Modal from "@/components/common/Modal";
-
-
 export default {
   data() {
     return {
@@ -44,6 +42,7 @@ export default {
     Modal
   }
 }
+
 </script>
 
 <style scoped>
