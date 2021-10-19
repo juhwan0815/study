@@ -23,7 +23,7 @@ public class UserController {
     /**
      * @Cacheable
      * Redis에 캐싱된 데이터가 있으면 반환하고 없으면 DB에서 조회한 다음 Redis에 캐시
-     * 고정된 캐시 값 CacheKey.User와 유동적으로 변하는 userId를 가지고 키를 조합하여 캐시를 조회
+     * 고정된 키 값 CacheKey.User와 유동적으로 변하는 userId를 가지고 키를 조합하여 캐시를 조회
      * 캐시 이름은 user::500 같이 ::으로 구분된 이름 저장
      * Result가 null이 아닌 경우만 처리
      * RedisCache에서 세팅한 expireTime=180초로 TTL이 설정
