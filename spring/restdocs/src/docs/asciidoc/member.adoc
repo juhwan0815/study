@@ -1,7 +1,8 @@
-:basedir: {docdir}/../../../
-:snippets: {basedir}/build/generated-snippets
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
 
-= RESTFUL Notes API Guide
+= 회원 서비스 - 회원 API
 :doctype: member
 :icons: font
 :source-highlighter: highlightjs
@@ -12,40 +13,13 @@
 :sectanchors:
 
 [[api]]
-==== Member 경로 조회 API
-====== 요청
-include::{snippets}/member/readPath/http-request.adoc[]
-include::{snippets}/member/readPath/path-parameters.adoc[]
-
-===== 응답
-include::{snippets}/member/readPath/http-response.adoc[]
-include::{snippets}/member/readPath/response-fields.adoc[]
-
-== Member 파라미터 조회 API
-===== 요청
-include::{snippets}/member/readParam/http-request.adoc[]
-include::{snippets}/member/readParam/request-parameters.adoc[]
-===== 응답
-include::{snippets}/member/readParam/http-response.adoc[]
-include::{snippets}/member/readParam/response-fields.adoc[]
-
-== Member 헤더 조회 API
-===== 요청
-include::{snippets}/member/header/http-request.adoc[]
-include::{snippets}/member/header/request-headers.adoc[]
-===== 응답
-include::{snippets}/member/header/http-response.adoc[]
-include::{snippets}/member/header/response-headers.adoc[]
-
-== Member 생성 API
+==== 회원 생성 API
 ===== 요청
 include::{snippets}/member/create/http-request.adoc[]
+====== Body
 include::{snippets}/member/create/request-fields.adoc[]
+
 ===== 응답
 include::{snippets}/member/create/http-response.adoc[]
+====== Body
 include::{snippets}/member/create/response-fields.adoc[]
-
-
-
-
-

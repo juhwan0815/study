@@ -1,31 +1,24 @@
 package spring.study.restdocs.controller;
 
-import org.springframework.http.HttpStatus;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import spring.study.restdocs.domain.Member;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import spring.study.restdocs.dto.member.MemberCreateRequest;
+import spring.study.restdocs.dto.member.MemberResponse;
+import spring.study.restdocs.service.MemberService;
 
+@Slf4j
 @RestController
+@RequiredArgsConstructor
 public class MemberController {
 
-    @GetMapping("/api/members/{memberId}")
-    public Member getMemberPath(@PathVariable Long memberId){
-        return new Member(memberId,"황주환");
-    }
+    private final MemberService memberService;
 
-    @GetMapping("/api/members")
-    public Member getMemberParam(@RequestParam Long memberId){
-        return new Member(memberId,"황주환");
-    }
-
-    @GetMapping("/api/members/header")
-    public ResponseEntity getMemberHeader(@RequestHeader("memberId") Long memberId) {
-        return ResponseEntity.status(HttpStatus.OK)
-                .header("memberId", String.valueOf(memberId)).build();
-    }
-
-    @PostMapping("/api/members")
-    public Member createMember(@RequestBody Member member){
-        return member;
+    @PostMapping("/members")
+    public ResponseEntity<MemberResponse> createMember(@RequestBody MemberCreateRequest request){
+        return ResponseEntity.ok(memberService.createMember(request));
     }
 }
