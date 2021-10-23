@@ -3,8 +3,6 @@ package spring.study.replication.config;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +13,7 @@ import java.util.Map;
 public class CustomDataSourceProperties {
 
     private String url;
+    private String driverClassName;
     private String username;
     private String password;
     private final Map<String,Slave> slave = new HashMap<>();

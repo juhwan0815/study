@@ -43,7 +43,7 @@ public class CustomDataSourceConfig {
         return DataSourceBuilder.create()
                 .type(HikariDataSource.class)
                 .url(url)
-                .driverClassName("com.mysql.cj.jdbc.Driver")
+                .driverClassName(dataSourceProperties.getDriverClassName())
                 .username(dataSourceProperties.getUsername())
                 .password(dataSourceProperties.getPassword())
                 .build();
