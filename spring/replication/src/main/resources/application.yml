@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://replication.cwkz7n34u6at.ap-northeast-2.rds.amazonaws.com:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: juhwan0815
+    password: rjatjd0815
+    slave:
+      slave1:
+        name: slave-1
+        url: jdbc:mysql://replication1.cwkz7n34u6at.ap-northeast-2.rds.amazonaws.com:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf8
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        format_sql: true
+    open-in-view: false
+
+logging.level:
+  org.hibernate.SQL: debug
