@@ -1,4 +1,0 @@
-spring:
-  aop:
-    proxy-target-class: true # cglib
-#    proxy-target-class: false # JDK 동적 프록시
