@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/study
+    password: study
+    username: study
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  profiles:
+    active: chaos-monkey
+
+
+management:
+  endpoint:
+    chaosmonkey:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health, info, chaosmonkey
+
+chaos:
+  monkey:
+    enabled: true
+    watcher:
+      repository: true

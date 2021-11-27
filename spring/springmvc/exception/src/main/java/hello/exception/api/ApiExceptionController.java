@@ -31,7 +31,7 @@ public class ApiExceptionController {
         return new MemberDto(id, "hello" + id);
     }
 
-    @GetMapping("/api/response--status-ex1")
+    @GetMapping("/api/response-status-ex1")
     public String responseStatusEx1() {
         throw new BadRequestException();
     }
