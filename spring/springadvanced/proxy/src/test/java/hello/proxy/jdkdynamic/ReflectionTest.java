@@ -27,7 +27,7 @@ public class ReflectionTest {
     }
 
     @Test
-    void reflection1() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    void reflection1() throws Exception {
         // 클래스 정보
         Class classHello = Class.forName("hello.proxy.jdkdynamic.ReflectionTest$Hello");
 
