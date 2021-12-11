@@ -1,0 +1,4 @@
+spring:
+  aop:
+    proxy-target-class: true # cglib
+#    proxy-target-class: false # jdk dynamic
