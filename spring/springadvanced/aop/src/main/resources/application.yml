@@ -1,4 +1,6 @@
 spring:
+  main:
+    allow-circular-references: true
   aop:
     proxy-target-class: true # cglib
 #    proxy-target-class: false # jdk dynamic
