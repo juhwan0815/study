@@ -1,0 +1,17 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+= 스터디 서비스 - 스터디 API
+:doctype: location
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:sectanchors:
+
+회원 서비스 요청 URL
+회원 생성 API
+include::{snippets}/user/create/http-request.adoc[]

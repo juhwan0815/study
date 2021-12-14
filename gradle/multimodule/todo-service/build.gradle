@@ -1,0 +1,39 @@
+buildscript {
+    ext {
+        queryDslVersion = "5.0.0"
+    }
+}
+
+plugins {
+    // (1) QueryDSL 플러그인 추가
+    id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
+}
+
+
+dependencies {
+    implementation(project(":common"))
+    implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
+    implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
+
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+}
+
+def querydslDir = "$buildDir/generated/querydsl"
+
+querydsl {
+    jpa = true
+    querydslSourcesDir = querydslDir
+}
+
+// (4) QClass 소스 위치를 지정합니다.
+sourceSets {
+    main.java.srcDir querydslDir
+}
+// (5) gradle 5.0 설정
+configurations {
+    querydsl.extendsFrom compileClasspath
+}
+
+compileQuerydsl {
+    options.annotationProcessorPath = configurations.querydsl
+}

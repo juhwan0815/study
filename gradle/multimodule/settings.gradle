@@ -1,0 +1,5 @@
+rootProject.name = 'multimodule'
+include 'user-service'
+include 'common'
+include 'todo-service'
+
