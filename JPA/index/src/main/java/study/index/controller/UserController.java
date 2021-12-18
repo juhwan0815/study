@@ -6,6 +6,8 @@ import study.index.dto.user.UserCreateRequest;
 import study.index.dto.user.UserResponse;
 import study.index.service.UserService;
 
+import java.util.List;
+
 @RestController
 @RequiredArgsConstructor
 public class UserController {
@@ -22,8 +24,15 @@ public class UserController {
         return userService.findById(userId);
     }
 
-    @GetMapping("/users")
+//    @GetMapping("/users")
     public UserResponse findByEmail(@RequestParam String email){
         return userService.findByEmail(email);
     }
+
+    @GetMapping("/users")
+    public List<UserResponse> findPage(@RequestParam String name, @RequestParam int page ,@RequestParam Long userId){
+        return userService.findPage(name, page, 20, userId);
+    }
+
+
 }

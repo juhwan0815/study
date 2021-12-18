@@ -13,4 +13,6 @@ public interface UserService {
 
     UserResponse findByEmail(String email);
 
+    List<UserResponse> findPage(String name, int page, int pageSize, Long userId);
+
 }
