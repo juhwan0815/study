@@ -8,6 +8,11 @@ public class CustomEventListener implements ApplicationListener<CustomEvent> {
 
     @Override
     public void onApplicationEvent(CustomEvent event) {
-        System.out.println("Received spring custom event - " + event.getMessage());
+        try {
+            Thread.sleep(3000);
+            System.out.println("Received spring custom event - " + event.getMessage());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
