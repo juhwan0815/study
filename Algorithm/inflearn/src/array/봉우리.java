@@ -8,39 +8,45 @@ public class 봉우리 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        int[][] numArray = new int[n][n];
+        int[][] arr = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                numArray[i][j] = scanner.nextInt();
+                arr[i][j] = scanner.nextInt();
             }
         }
 
-        System.out.println(solution(numArray));
+        System.out.println(solution(n, arr));
     }
 
-    public static int solution(int[][] numArray) {
-        int[][] map = new int[numArray.length + 2][numArray.length + 2];
-        int result = 0;
+    public static int solution(int n, int[][] arr) {
+        // 상하좌우
+        int[] dx = {-1, 0, 1, 0};
+        int[] dy = {0, 1, 0, -1};
 
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map.length; j++) {
-                if (i == 0 || j == 0 || i == (map.length - 1) || j == (map.length - 1)) {
-                    map[i][j] = 0;
-                    continue;
+        int answer = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                boolean check = true;
+                // 4방향
+                for (int k = 0; k < 4; k++) {
+                    // 행 좌표
+                    int nx = i + dx[k];
+                    // 열 좌표
+                    int ny = j + dy[k];
+                    // 봉우리인지 확인
+                    // 먼저 가장자리를 걸러낸다.
+                    if (nx >= 0 && nx < n && ny >= 0 && ny < n && arr[nx][ny] >= arr[i][j]) {
+                        check = false;
+                        break;
+                    }
                 }
 
-                map[i][j] = numArray[i - 1][j - 1];
-            }
-        }
-
-        for (int i = 1; i < map.length - 1; i++) {
-            for (int j = 1; j < map.length - 1; j++) {
-                if(map[i][j] > map[i-1][j] && map[i][j] > map[i+1][j] && map[i][j] > map[i][j+1] && map[i][j] > map[i][j-1]){
-                    result++;
+                if(check){
+                    answer++;
                 }
             }
         }
-
-        return result;
+        return answer;
     }
 }

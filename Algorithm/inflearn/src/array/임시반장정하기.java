@@ -6,46 +6,40 @@ public class 임시반장정하기 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
-        int[][] numArray = new int[num][num];
-        for (int i = 0; i < num; i++) {
-            for (int j = 0; j < num; j++) {
-                numArray[i][j] = scanner.nextInt();
+        int n = scanner.nextInt();
+
+        int[][] arr = new int[n + 1][6]; // 1~5 학년
+        for (int i = 1; i <= n; i++) { // 학생 수
+            for (int j = 1; j <= 5; j++) { // 학년
+                arr[i][j] = scanner.nextInt();
             }
         }
 
-        System.out.println(solution(numArray));
+        System.out.println(solution(n, arr));
     }
 
-    public static int solution(int[][] numArray) {
-        int[] students = new int[numArray.length];
+    public static int solution(int n, int[][] arr) {
+        int answer = 0;
+        int max = Integer.MIN_VALUE;
 
-        for (int i = 0; i < numArray.length; i++) {
 
-            Map<Integer, List<Integer>> ban = new HashMap<>();
-            for (int j = 0; j < numArray.length; j++) {
-                if (ban.containsKey(numArray[j][i])) {
-                    List<Integer> studentList = ban.get(numArray[j][i]);
-                    studentList.add(j);
-                } else {
-                    List<Integer> studentList = new ArrayList<>();
-                    studentList.add(j);
-                    ban.put(numArray[j][i], studentList);
-                }
-            }
-
-            for (int key : ban.keySet()) {
-                List<Integer> studentList = ban.get(key);
-                if (studentList.size() >= 2) {
-                    for (Integer student : studentList) {
-                        students[student]++;
+        for (int i = 1; i <= n; i++) {
+            int count = 0;
+            for (int j = 1; j <= n; j++) {
+                for (int k = 1; k <= 5; k++) {
+                    if (arr[i][k] == arr[j][k]) { // i 학생과 같은 반을 한 J번 학생이 몇명있는지 체크
+                        count++;
+                        break;
                     }
                 }
             }
+            if (count > max) {
+                max = count;
+                answer = i;
+            }
         }
 
-
-        return Arrays.stream(students).max().getAsInt() + 1;
+        return answer;
     }
 
 }
