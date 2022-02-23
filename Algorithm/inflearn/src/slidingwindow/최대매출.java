@@ -19,17 +19,17 @@ public class 최대매출 {
 
     public static int solution(int[] arr, int n, int k) {
         int answer = 0;
+        int sum = 0;
 
-        for (int i = 0; i < n - k; i++) {
-            int sum = 0;
+        for (int i = 0; i < k; i++) {
+            sum += arr[i];
+        }
+        answer = sum;
 
-            for (int j = 0; j < k; j++) {
-                sum += arr[i + j];
-            }
-
-            if(answer < sum){
-                answer = sum;
-            }
+        for (int i = k; i < n; i++) {
+            // 맨앞은 빼주고 뒤에는 더해준다.
+            sum += (arr[i] - arr[i - k]);
+            answer = Math.max(answer, sum);
         }
 
         return answer;

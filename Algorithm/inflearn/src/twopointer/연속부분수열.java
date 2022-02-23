@@ -1,4 +1,4 @@
-package slidingwindow;
+package twopointer;
 
 import java.util.Scanner;
 
@@ -18,19 +18,21 @@ public class 연속부분수열 {
 
     public static int solution(int n, int m, int[] arr) {
         int answer = 0;
+        int sum = 0;
+        int lt = 0;
+        for (int rt = 0; rt < n; rt++) {
+            sum += arr[rt];
 
-        for (int i = 0; i < n; i++) {
-            int sum = 0;
-
-            for (int j = i; j < n; j++) {
-                sum += arr[j];
+            if (sum == m) {
+                answer++;
+            }
+            while (sum >= m) {
+                sum -= arr[lt++];
                 if (sum == m) {
                     answer++;
-                    break;
-                } else if (sum > m) {
-                    break;
                 }
             }
+
         }
 
         return answer;
