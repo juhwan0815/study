@@ -14,26 +14,19 @@ public class 학급회장 {
         System.out.println(solution(n, str));
     }
 
-    public static String solution(int n, String str) {
+    public static char solution(int n, String str) {
+        char answer = ' ';
+        Map<Character, Integer> map = new HashMap<>();
 
-        Map<String, Integer> repository = new HashMap<>();
-
-        char[] charArray = str.toCharArray();
-        for (char c : charArray) {
-            if (repository.containsKey(String.valueOf(c))) {
-                int num = repository.get(String.valueOf(c));
-                repository.put(String.valueOf(c), ++num);
-            } else {
-                repository.put(String.valueOf(c), 1);
-            }
+        for (char c : str.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
-        String answer = "";
-        int max = 0;
-        for (String s : repository.keySet()) {
-            if (max < repository.get(s)) {
-                max = repository.get(s);
-                answer = s;
+        int max = Integer.MIN_VALUE;
+        for (char key : map.keySet()) {
+            if (map.get(key) > max) {
+                max = map.get(key);
+                answer = key;
             }
         }
 
