@@ -17,7 +17,7 @@ class MemberRepositoryV0Test {
     MemberRepositoryV0 repository = new MemberRepositoryV0();
 
     @Test
-    void crud() throws SQLException {
+    void save() throws SQLException {
         // save
         Member member = new Member("memberV7", 10000);
         repository.save(member);
@@ -27,7 +27,7 @@ class MemberRepositoryV0Test {
         log.info("findMember={}", findMember);
         assertThat(findMember).isEqualTo(member);
 
-        // update: money: 10000 -> 20000
+        // update : money : 10000 -> 20000
         repository.update(member.getMemberId(), 20000);
         Member updatedMember = repository.findById(member.getMemberId());
         assertThat(updatedMember.getMoney()).isEqualTo(20000);
