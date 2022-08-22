@@ -79,5 +79,4 @@ class MemberServiceV1Test {
         assertThat(findMemberEx.getMoney()).isEqualTo(10000);
     }
 
-
 }
