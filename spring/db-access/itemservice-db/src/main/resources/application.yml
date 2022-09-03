@@ -12,6 +12,8 @@ logging:
   level:
     org.springframework.jdbc: debug
     hello.itemservice.repository.mybatis: trace
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
 
 #MyBatis
 mybatis:
