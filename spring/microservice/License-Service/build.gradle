@@ -7,7 +7,7 @@ plugins {
 
 group = 'com.optimagrowth'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '8'
 
 configurations {
     compileOnly {
@@ -19,10 +19,10 @@ repositories {
     mavenCentral()
 }
 
-//ext {
-//    set('snippetsDir', file("build/generated-snippets"))
+ext {
+    set('snippetsDir', file("build/generated-snippets"))
 //    set('springCloudVersion', "2021.0.3")
-//}
+}
 
 dependencies {
     compileOnly 'org.projectlombok:lombok'
@@ -72,7 +72,7 @@ dependencies {
 //    testImplementation 'org.springframework.restdocs:spring-restdocs-webtestclient'
 //    testImplementation 'org.springframework.security:spring-security-test'
 }
-//
+
 //dependencyManagement {
 //    imports {
 //        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-service
+
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server: # 로컬 구성 정보 : classpath 위치나 파일 시스템의 위치가 될 수 있다.
+        native: # 특정 파일 시스템 폴더에서 읽어온다.
+          search-locations: classpath:/config  # file-Path or classpath: /config <- resources/config 폴더에서 찾는다.
+
+server:
+  port: 8071
+
