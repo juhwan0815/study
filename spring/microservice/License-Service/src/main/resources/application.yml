@@ -9,3 +9,7 @@ management:
     diskspace:
       enabled: true
 
+logging:
+  level:
+    org.springframework.web: WARN
+    com.optimagrowth: DEBUG

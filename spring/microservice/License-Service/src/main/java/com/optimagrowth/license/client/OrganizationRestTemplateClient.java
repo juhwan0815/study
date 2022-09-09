@@ -1,6 +1,7 @@
 package com.optimagrowth.license.client;
 
 import com.optimagrowth.license.model.Organization;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
