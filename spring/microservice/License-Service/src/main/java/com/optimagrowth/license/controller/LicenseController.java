@@ -3,14 +3,13 @@ package com.optimagrowth.license.controller;
 import com.optimagrowth.license.model.License;
 import com.optimagrowth.license.service.LicenseService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.cglib.core.Local;
-import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Locale;
+import java.util.List;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping("/v1/organization/{organizationId}/license")
@@ -22,10 +21,10 @@ public class LicenseController {
     @GetMapping("/{licenseId}")
     public ResponseEntity<License> getLicense(@PathVariable("organizationId") String organizationId,
                                               @PathVariable("licenseId") String licenseId) {
-        License license = licenseService.getLicense(licenseId, organizationId);
+        License license = licenseService.getLicense(licenseId, organizationId, "");
         license.add(linkTo(methodOn(LicenseController.class)
-                .getLicense(organizationId, license.getLicenseId()))
-                .withSelfRel(),
+                        .getLicense(organizationId, license.getLicenseId()))
+                        .withSelfRel(),
                 linkTo(methodOn(LicenseController.class)
                         .createLicense(license))
                         .withRel("createLicense"),
@@ -35,6 +34,14 @@ public class LicenseController {
                 linkTo(methodOn(LicenseController.class)
                         .deleteLicense(licenseId))
                         .withRel("deleteLicense"));
+        return ResponseEntity.ok(license);
+    }
+
+    @GetMapping("/{licenseId}/{clientType}")
+    public ResponseEntity<License> getLicenseWithClient(@PathVariable("organizationId") String organizationId,
+                                                        @PathVariable("licenseId") String licenseId,
+                                                        @PathVariable("clientType") String clientType) {
+        License license = licenseService.getLicense(licenseId, organizationId, clientType);
         return ResponseEntity.ok(license);
     }
 
@@ -52,5 +59,11 @@ public class LicenseController {
     public ResponseEntity<String> deleteLicense(@PathVariable("licenseId") String licenseId) {
         return ResponseEntity.ok(licenseService.deleteLicense(licenseId));
     }
+
+    @GetMapping
+    public List<License> getLicenses(@PathVariable("organizationId") String organizationId) {
+        return licenseService.getLicensesByOrganization(organizationId);
+    }
+
 
 }

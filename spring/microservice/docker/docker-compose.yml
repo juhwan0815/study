@@ -30,6 +30,19 @@ services:
       backend:
         aliases:
           - "config-service"
+  eureka-service:
+    image: eureka-service:0.0.1-SNAPSHOT
+    ports:
+      - "8070:8070"
+    depends_on:
+      database:
+        condition: service_healthy
+      config-service:
+        condition: service_started  
+    networks:
+      backend:
+        aliases:
+          - "eureka-service"
   license-service:
     image: license-service:0.0.1-SNAPSHOT
     environment:
@@ -45,6 +58,23 @@ services:
         condition: service_started
     ports:
       - "8080:8080"
+    networks:
+      - backend
+  organization-service:
+    image: organization-service:0.0.1-SNAPSHOT
+    environment:
+      PROFILE: "dev"
+      CONFIGSERVER_URI: "http://config-service:8071"
+      CONFIGSERVER_PORT: "8071"
+      DATABASESERVER_PORT: "5432"
+      ENCRYPT_KEY: "fje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64Lo" # "IMSYMMETRIC"
+    depends_on:
+      database:
+        condition: service_healthy
+      config-service:
+        condition: service_started
+    ports:
+      - "8081:8081"
     networks:
       - backend
 

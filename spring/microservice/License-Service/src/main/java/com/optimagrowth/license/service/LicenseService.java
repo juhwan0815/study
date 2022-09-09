@@ -1,16 +1,22 @@
 package com.optimagrowth.license.service;
 
+import com.optimagrowth.license.client.OrganizationDiscoveryClient;
+import com.optimagrowth.license.client.OrganizationFeignClient;
+import com.optimagrowth.license.client.OrganizationRestTemplateClient;
 import com.optimagrowth.license.config.ServiceConfig;
 import com.optimagrowth.license.model.License;
+import com.optimagrowth.license.model.Organization;
 import com.optimagrowth.license.repository.LicenseRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Locale;
+import java.util.List;
 import java.util.UUID;
 
 @Service
+@Transactional
 @RequiredArgsConstructor
 public class LicenseService {
 
@@ -20,14 +26,52 @@ public class LicenseService {
 
     private final LicenseRepository licenseRepository;
 
-    public License getLicense(String licenseId, String organizationId) {
+    private final OrganizationFeignClient organizationFeignClient;
+
+    private final OrganizationRestTemplateClient organizationRestTemplateClient;
+
+    private final OrganizationDiscoveryClient organizationDiscoveryClient;
+
+
+    public License getLicense(String licenseId, String organizationId, String clientType) {
         License license = licenseRepository.findByOrganizationIdAndLicenseId(organizationId, licenseId);
 
-        if(license == null){
-            throw new IllegalArgumentException(String.format(messages.getMessage("license.search.error.message", null, null)));
+        if (license == null) {
+            throw new IllegalArgumentException(String.format(messages.getMessage("license.search.error.message", null, null), licenseId, organizationId));
+        }
+
+        Organization organization = retrieveOrganization(organizationId, clientType);
+        if (organization != null) {
+            license.setOrganizationName(organization.getName());
+            license.setContactName(organization.getContactName());
+            license.setContactEmail(organization.getContactEmail());
+            license.setContactPhone(organization.getContactPhone());
         }
 
         return license.withComment(serviceConfig.getProperty());
+    }
+
+    private Organization retrieveOrganization(String organizationId, String clientType) {
+        Organization organization = null;
+
+        switch (clientType) {
+            case "feign":
+                System.out.println("I am using the feign client");
+                organization = organizationFeignClient.getOrganization(organizationId);
+                break;
+            case "rest":
+                System.out.println("I am using the rest client");
+                organization = organizationRestTemplateClient.getOrganization(organizationId);
+                break;
+            case "discovery":
+                System.out.println("I am using the discovery client");
+                organization = organizationDiscoveryClient.getOrganization(organizationId);
+                break;
+            default:
+                organization = organizationRestTemplateClient.getOrganization(organizationId);
+                break;
+        }
+        return organization;
     }
 
     public License createLicense(License license) {
@@ -50,5 +94,9 @@ public class LicenseService {
 
         responseMessage = String.format(messages.getMessage("license.delete.message", null, null), licenseId);
         return responseMessage;
+    }
+
+    public List<License> getLicensesByOrganization(String organizationId) {
+        return licenseRepository.findByOrganizationId(organizationId);
     }
 }

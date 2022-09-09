@@ -1,10 +1,8 @@
 spring:
   application:
-    name: license-service
-
-  profiles:
-    active: dev
+    name: eureka-service
 
   cloud:
     config:
       uri: http://config-service:8071
+

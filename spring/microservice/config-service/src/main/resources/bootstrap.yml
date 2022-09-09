@@ -4,7 +4,6 @@ spring:
 
   profiles:
     active: git
-
   cloud:
     config:
       server: # 로컬 구성 정보 : classpath 위치나 파일 시스템의 위치가 될 수 있다.
@@ -12,7 +11,7 @@ spring:
           search-locations: classpath:/config  # file-Path or classpath: /config <- resources/config 폴더에서 찾는다.
         git:
           uri: https://github.com/juhwan0815/spring-cloud-config.git
-          search-paths: license-service
+#          search-paths: license-service
 #        vault:
 #          port: 8200
 #          host: 127.0.0.1
