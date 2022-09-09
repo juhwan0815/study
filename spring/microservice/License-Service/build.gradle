@@ -21,7 +21,7 @@ repositories {
 
 ext {
     set('snippetsDir', file("build/generated-snippets"))
-//    set('springCloudVersion', "2021.0.3")
+    set('springCloudVersion', "2021.0.3")
 }
 
 dependencies {
@@ -34,11 +34,14 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
     implementation 'org.springframework.boot:spring-boot-starter-parent:2.7.3'
-
+    runtimeOnly 'org.postgresql:postgresql'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
 //    implementation 'org.springframework.boot:spring-boot-starter-amqp'
 //    implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
-//    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 //    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 //    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 //    implementation 'org.springframework.boot:spring-boot-starter-security'
@@ -51,7 +54,6 @@ dependencies {
 //    implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
 //    implementation 'org.springframework.cloud:spring-cloud-starter'
 //    implementation 'org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j'
-//    implementation 'org.springframework.cloud:spring-cloud-starter-config'
 //    implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
 //    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer'
 //    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
@@ -73,15 +75,19 @@ dependencies {
 //    testImplementation 'org.springframework.security:spring-security-test'
 }
 
-//dependencyManagement {
-//    imports {
-//        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
-//    }
-//}
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
 
 tasks.named('test') {
 //    outputs.dir snippetsDir
     useJUnitPlatform()
+}
+
+tasks.named('compileJava') {
+    inputs.files(tasks.named('processResources'))
 }
 
 //tasks.named('asciidoctor') {

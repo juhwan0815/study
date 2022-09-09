@@ -8,3 +8,4 @@ management:
       enabled: true
     diskspace:
       enabled: true
+

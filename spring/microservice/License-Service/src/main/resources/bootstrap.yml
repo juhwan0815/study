@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: license-service
+
+  profiles:
+    active: dev
+
+  cloud:
+    config:
+      uri: http://config-service:8071
