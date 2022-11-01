@@ -7,7 +7,16 @@ spring:
     username: sa
     password:
 
-# JdbcTemplate SQL log
 logging:
   level:
+    # JdbcTemplate SQL log
     org.springframework.jdbc: debug
+    # MyBatis
+    hello.itemservice.repository.mybatis: trace
+
+# MyBatis
+mybatis:
+  type-aliases-package: hello.itemservice.domain
+  configuration:
+    map-underscore-to-camel-case: true
+
