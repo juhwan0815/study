@@ -1,3 +1,13 @@
 spring:
   profiles:
     active: test
+
+#  datasource:
+#    url: jdbc:h2:tcp://localhost/~/testcase
+#    username: sa
+#    password:
+
+# JdbcTemplate SQL log
+logging:
+  level:
+    org.springframework.jdbc: debug
