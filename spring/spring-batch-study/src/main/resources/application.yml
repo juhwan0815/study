@@ -8,9 +8,9 @@ spring:
       # job.name 이 있으면 job.name 할당 없으면 NONE 할당
       # NONE 이 할당되면 모든 배치 실행 X
       names: ${job.name:NONE}
-#  jpa:
-#    hibernate:
-#      ddl-auto: update
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 
 logging:
