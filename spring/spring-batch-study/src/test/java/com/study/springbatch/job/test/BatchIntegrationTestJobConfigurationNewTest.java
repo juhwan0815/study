@@ -56,7 +56,9 @@ class BatchIntegrationTestJobConfigurationNewTest {
         salesRepository.save(new Sales(orderDate, amount3, "3"));
 
         JobParameters jobParameters = new JobParametersBuilder()
-                .addString("orderDate", orderDate.format(DATE_FORMATTER))
+                .addString("orderD" +
+                        "" +
+                        "ate", orderDate.format(DATE_FORMATTER))
                 .toJobParameters();
 
         // when
