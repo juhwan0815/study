@@ -1,4 +1,4 @@
-package com.example.stock.service;
+package com.example.stock.facade;
 
 import com.example.stock.domain.Stock;
 import com.example.stock.repository.StockRepository;
@@ -15,11 +15,12 @@ import java.util.concurrent.Executors;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest
-class StockServiceTest {
+class NamedLockStockFacadeTest {
 
     @Autowired
-    private PessimisticLockStockService stockService;
-//    private StockService stockService;
+    private NamedLockStockFacade namedLockStockFacade;
+
+
     @Autowired
     private StockRepository stockRepository;
 
@@ -35,16 +36,6 @@ class StockServiceTest {
     }
 
     @Test
-    void stockDecrease() {
-        stockService.decrease(1L, 1L);
-
-        Stock stock = stockRepository.findById(1L)
-                .orElseThrow();
-
-        assertThat(stock.getQuantity()).isEqualTo(99L);
-    }
-
-    @Test
     void 동시에_100개의_요청() throws InterruptedException {
         // given
         int threadCount = 100;
@@ -57,7 +48,7 @@ class StockServiceTest {
         for (int i = 0; i < threadCount; i++) {
             executorService.submit(() -> {
                 try {
-                    stockService.decrease(1L, 1L);
+                    namedLockStockFacade.decrease(1L, 1L);
                 } finally {
                     latch.countDown();
                 }
