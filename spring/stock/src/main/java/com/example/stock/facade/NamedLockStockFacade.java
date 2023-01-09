@@ -4,7 +4,6 @@ import com.example.stock.repository.LockRepository;
 import com.example.stock.service.StockService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Component
@@ -15,6 +14,7 @@ public class NamedLockStockFacade {
 
     private final StockService stockService;
 
+    @Transactional
     public void decrease(Long id, Long quantity) {
         try {
             lockRepository.getLock(id.toString());
@@ -23,4 +23,5 @@ public class NamedLockStockFacade {
             lockRepository.releaseLock(id.toString());
         }
     }
+
 }
