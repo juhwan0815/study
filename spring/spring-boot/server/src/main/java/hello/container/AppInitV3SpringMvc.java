@@ -9,7 +9,6 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 public class AppInitV3SpringMvc implements WebApplicationInitializer {
-
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         System.out.println("AppInitV3SpringMvc.onStartup");
@@ -27,5 +26,4 @@ public class AppInitV3SpringMvc implements WebApplicationInitializer {
         // 모든 요청이 디스패처 서블릿을 통하도록 설정
         servlet.addMapping("/");
     }
-
 }
