@@ -16,4 +16,9 @@ public class ProductService {
         productRepository.save(product);
     }
 
+    public ProductResponse findProduct(Long productId) {
+        Product product = productRepository.findById(productId)
+                .orElseThrow(() -> new IllegalArgumentException("재하지 않는 상품입니다."));
+        return new ProductResponse(product.getId(), product.getName(), product.getPrice(), product.getDiscountPolicy());
+    }
 }
