@@ -8,6 +8,5 @@ public class VarEx3 {
 
         boolean booleanVar = true;
         System.out.println(booleanVar);
-
     }
 }
