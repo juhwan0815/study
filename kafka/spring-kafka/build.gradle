@@ -30,7 +30,10 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.kafka:spring-kafka-test'
+    implementation("io.micrometer:micrometer-core")
+    implementation("io.micrometer:micrometer-registry-prometheus")
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation("com.fasterxml.jackson.core:jackson-databind")
 }
 
 tasks.named('test') {

@@ -1,0 +1,55 @@
+[2025/04/22 16:50:57] 'PushAgent' 프로그램 재시작 
+[2025/04/22 16:50:57] PushAgent 구동 
+[2025/04/22 16:50:57] DEF_MSG_PUSH_CONNECT 
+[2025/04/22 16:50:57] startConnect 
+[2025/04/22 16:50:57] webStopmThread start 
+[2025/04/22 16:50:57] 000:131658 
+[2025/04/22 16:50:57] connect 시도 
+[2025/04/22 16:50:58] CONNECTED  relay.easypos.net 
+[2025/04/22 16:50:58] 구독 시작 
+[2025/04/22 16:50:58] /topic/easyqr/order/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 16:50:58] /topic/order/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 16:50:58] /topic/easyqr/call/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 17:37:57] ERROR ERROR : 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다 
+[2025/04/22 17:37:57] 재접속 시도 
+[2025/04/22 17:37:57] 연결시작 
+[2025/04/22 17:37:57] 연결시작 
+[2025/04/22 17:37:57] startConnect 
+[2025/04/22 17:38:12] 'PushAgent' 프로그램 재시작 
+[2025/04/22 17:38:12] PushAgent 구동 
+[2025/04/22 17:38:12] DEF_MSG_PUSH_CONNECT 
+[2025/04/22 17:38:12] startConnect 
+[2025/04/22 17:38:12] webStopmThread start 
+[2025/04/22 17:38:12] 000:131658 
+[2025/04/22 17:38:12] connect 시도 
+[2025/04/22 17:38:13] CONNECTED  relay.easypos.net 
+[2025/04/22 17:38:13] 구독 시작 
+[2025/04/22 17:38:13] /topic/easyqr/order/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 17:38:13] /topic/order/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 17:38:13] /topic/easyqr/call/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 17:38:52] GET FROM /topic/easyqr/order/000/131658/00 : {"hashCode":1583346965,"storeId":46,"posNo":"00","storeTableId":"3239","storeTableGroupCode":"002","storeTableCode":"0018","orderNo":"20250422000000005430","totalPrice":38000,"discountPrice":0,"paymentPrice":38000,"createDate":"2025-04-22 17:38:52","orderItems":[{"productId":104544,"productCode":"000001","productName":"2인","quantity":1,"productPrice":38000,"discountPrice":0,"paymentPrice":38000,"options":[]}],"payment":null,"headquartersCode":"000","storeCode":"131658"} 
+[2025/04/22 17:39:00] GET FROM /topic/easyqr/order/000/131658/00 : {"hashCode":798042475,"storeId":46,"posNo":"00","storeTableId":"3235","storeTableGroupCode":"002","storeTableCode":"0014","orderNo":"20250422000000005428","totalPrice":21000,"discountPrice":0,"paymentPrice":21000,"createDate":"2025-04-22 17:33:18","orderItems":[{"productId":104633,"productCode":"000006","productName":"곱창(1인)","quantity":1,"productPrice":17000,"discountPrice":0,"paymentPrice":17000,"options":[]},{"productId":104555,"productCode":"000029","productName":"누룽지(2인)","quantity":2,"productPrice":4000,"discountPrice":0,"paymentPrice":4000,"options":[]}],"payment":null,"headquartersCode":"000","storeCode":"131658"} 
+[2025/04/22 17:39:00] GET FROM /topic/easyqr/order/000/131658/00 : {"hashCode":-777527630,"storeId":46,"posNo":"00","storeTableId":"3238","storeTableGroupCode":"002","storeTableCode":"0017","orderNo":"20250422000000005429","totalPrice":78000,"discountPrice":0,"paymentPrice":78000,"createDate":"2025-04-22 17:33:48","orderItems":[{"productId":104546,"productCode":"000003","productName":"4인","quantity":1,"productPrice":78000,"discountPrice":0,"paymentPrice":78000,"options":[]}],"payment":null,"headquartersCode":"000","storeCode":"131658"} 
+[2025/04/22 17:39:59] GET FROM /topic/socket/server/keepAlive : {"message":"Keep-alive"} 
+[2025/04/22 17:40:05] GET FROM /topic/easyqr/order/000/131658/00 : {"hashCode":-812193935,"storeId":46,"posNo":"00","storeTableId":"3240","storeTableGroupCode":"002","storeTableCode":"0019","orderNo":"20250422000000005431","totalPrice":5000,"discountPrice":0,"paymentPrice":5000,"createDate":"2025-04-22 17:40:06","orderItems":[{"productId":104641,"productCode":"000016","productName":"소주","quantity":1,"productPrice":5000,"discountPrice":0,"paymentPrice":5000,"options":[]}],"payment":null,"headquartersCode":"000","storeCode":"131658"}
+
+[2025/04/22 21:00:11] ERROR CONNECT FAIL :  
+[2025/04/22 21:00:15] 재접속 시도 
+[2025/04/22 21:00:15] 연결시작 
+[2025/04/22 21:00:15] ERROR ERROR : 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다 
+[2025/04/22 21:26:21] 'PushAgent' 프로그램 재시작 
+[2025/04/22 21:26:21] PushAgent 구동 
+[2025/04/22 21:26:21] DEF_MSG_PUSH_CONNECT 
+[2025/04/22 21:26:21] startConnect 
+[2025/04/22 21:26:21] webStopmThread start 
+[2025/04/22 21:26:21] 000:131658 
+[2025/04/22 21:26:21] connect 시도 
+[2025/04/22 21:26:22] CONNECTED  relay.easypos.net 
+[2025/04/22 21:26:25] 구독 시작 
+[2025/04/22 21:26:25] /topic/easyqr/order/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 21:26:25] /topic/order/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 21:26:25] /topic/easyqr/call/headOfficeNo/shopNo/00 구독성공 
+[2025/04/22 21:26:59] GET FROM /topic/easyqr/order/000/131658/00 : {"hashCode":-172712312,"storeId":46,"posNo":"00","storeTableId":"3240","storeTableGroupCode":"002","storeTableCode":"0019","orderNo":"20250422000000005517","totalPrice":3000,"discountPrice":0,"paymentPrice":3000,"createDate":"2025-04-22 21:13:45","orderItems":[{"productId":104635,"productCode":"000013","productName":"볶음밥","quantity":1,"productPrice":3000,"discountPrice":0,"paymentPrice":3000,"options":[]}],"payment":null,"headquartersCode":"000","storeCode":"131658"} 
+[2025/04/22 21:27:05] GET FROM /topic/easyqr/order/000/131658/00 : {"hashCode":-1784493090,"storeId":46,"posNo":"00","storeTableId":"3238","storeTableGroupCode":"002","storeTableCode":"0017","orderNo":"20250422000000005520","totalPrice":4000,"discountPrice":0,"paymentPrice":4000,"createDate":"2025-04-22 21:27:06","orderItems":[{"productId":104586,"productCode":"000063","productName":"추억의도시락","quantity":1,"productPrice":4000,"discountPrice":0,"paymentPrice":4000,"options":[]}],"payment":null,"headquartersCode":"000","storeCode":"131658"} 
+[2025/04/22 21:29:59] GET FROM /topic/socket/server/keepAlive : {"message":"Keep-alive"} 
+[2025/04/22 23:05:00] ERROR ERROR : 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다 
